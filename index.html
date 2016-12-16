@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js"> <!--<![endif]-->
+<head>
+	<link rel="stylesheet" href="styles/css/bootstrap.css">
+	<link rel="stylesheet" href="styles/css/style.css">
+</head>
+
+<body ng-app="nymph">
+
+	<div class="container">
+		<div ng-include='"templates/header.html"'></div>
+		<div ng-view></div>
+		<div ng-include='"templates/footer.html"'></div>
+	</div>
+
+	
+
+	<!-- Vendor: Javascripts -->
+	<script type="text/javascript" src="node_modules/angular/angular.min.js"></script>
+	<script type="text/javascript" src="node_modules/angular-route/angular-route.min.js"></script>
+
+	<!-- Our Website Javascripts -->
+	<script src="js/main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,7 @@
+/* line 1, ../scss/style.scss */
+.header {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
