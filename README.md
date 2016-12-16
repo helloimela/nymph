@@ -1,1 +1,1 @@
-Simple Portfolio Singel App
+Simple Portfolio Single App
