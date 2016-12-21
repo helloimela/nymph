@@ -60,6 +60,17 @@
 	font-weight: $font-medium;
 }
 
+.fc-primary{color: $brand-primary;}
+
+
+// Header
+.header-info{
+	margin-top: 40px;
+}
+.logo-link{
+	&:hover, &:visited, &:active, &:focus{text-decoration: none;}
+}
+
 
 // panels
 .panel{
@@ -73,4 +84,21 @@
 	margin: 0 0 20px 0;
 	text-align: center;
 	img{width: 80%;}
+}
+
+// footer
+.footer{
+	ul li{
+		margin-left:5px;
+		display: inline-block;
+		a{
+			width: 30px;
+			display: block;
+			height: 30px;
+			img{width: 100%;}
+			&:hover{
+				img{opacity: 0.7;}
+			}
+		}
+	}
 }
