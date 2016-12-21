@@ -7900,3 +7900,26 @@ button.close {
 .text-medium {
   font-weight: 500;
 }
+
+/* line 65, ../scss/bootstrap.scss */
+.panel {
+  cursor: pointer;
+}
+/* line 67, ../scss/bootstrap.scss */
+.panel:hover {
+  border-color: #eee;
+}
+/* line 69, ../scss/bootstrap.scss */
+.panel:hover .panel-heading {
+  background-color: #eee;
+}
+
+/* line 72, ../scss/bootstrap.scss */
+.panel-image {
+  margin: 0 0 20px 0;
+  text-align: center;
+}
+/* line 75, ../scss/bootstrap.scss */
+.panel-image img {
+  width: 80%;
+}
