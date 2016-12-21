@@ -7957,22 +7957,36 @@ button.close {
   display: block;
 }
 
-/* line 103, ../scss/bootstrap.scss */
+/* line 101, ../scss/bootstrap.scss */
+.about-pp {
+  width: 100%;
+  /* height: 100px; */
+  max-width: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 20px auto 0;
+}
+/* line 108, ../scss/bootstrap.scss */
+.about-pp img {
+  width: 100%;
+}
+
+/* line 115, ../scss/bootstrap.scss */
 .footer ul li {
   margin-left: 5px;
   display: inline-block;
 }
-/* line 106, ../scss/bootstrap.scss */
+/* line 118, ../scss/bootstrap.scss */
 .footer ul li a {
   width: 30px;
   display: block;
   height: 30px;
 }
-/* line 110, ../scss/bootstrap.scss */
+/* line 122, ../scss/bootstrap.scss */
 .footer ul li a img {
   width: 100%;
 }
-/* line 112, ../scss/bootstrap.scss */
+/* line 124, ../scss/bootstrap.scss */
 .footer ul li a:hover img {
   opacity: 0.7;
 }
