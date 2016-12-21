@@ -7916,45 +7916,50 @@ button.close {
   text-decoration: none;
 }
 
-/* line 76, ../scss/bootstrap.scss */
+/* line 75, ../scss/bootstrap.scss */
+.back-link {
+  cursor: pointer;
+}
+
+/* line 78, ../scss/bootstrap.scss */
 .panel {
   cursor: pointer;
 }
-/* line 78, ../scss/bootstrap.scss */
+/* line 80, ../scss/bootstrap.scss */
 .panel:hover {
   border-color: #eee;
 }
-/* line 80, ../scss/bootstrap.scss */
+/* line 82, ../scss/bootstrap.scss */
 .panel:hover .panel-heading {
   background-color: #eee;
 }
 
-/* line 83, ../scss/bootstrap.scss */
+/* line 85, ../scss/bootstrap.scss */
 .panel-image {
   margin: 0 0 20px 0;
   text-align: center;
 }
-/* line 86, ../scss/bootstrap.scss */
+/* line 88, ../scss/bootstrap.scss */
 .panel-image img {
   width: 80%;
 }
 
-/* line 91, ../scss/bootstrap.scss */
+/* line 93, ../scss/bootstrap.scss */
 .footer ul li {
   margin-left: 5px;
   display: inline-block;
 }
-/* line 94, ../scss/bootstrap.scss */
+/* line 96, ../scss/bootstrap.scss */
 .footer ul li a {
   width: 30px;
   display: block;
   height: 30px;
 }
-/* line 98, ../scss/bootstrap.scss */
+/* line 100, ../scss/bootstrap.scss */
 .footer ul li a img {
   width: 100%;
 }
-/* line 100, ../scss/bootstrap.scss */
+/* line 102, ../scss/bootstrap.scss */
 .footer ul li a:hover img {
   opacity: 0.7;
 }
