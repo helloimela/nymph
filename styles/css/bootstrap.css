@@ -7944,22 +7944,35 @@ button.close {
   width: 80%;
 }
 
+/* line 91, ../scss/bootstrap.scss */
+.portfolio-detail {
+  margin: 20px 0;
+}
 /* line 93, ../scss/bootstrap.scss */
+.portfolio-detail li {
+  margin-bottom: 8px;
+}
+/* line 95, ../scss/bootstrap.scss */
+.portfolio-detail li .fc-primary {
+  display: block;
+}
+
+/* line 103, ../scss/bootstrap.scss */
 .footer ul li {
   margin-left: 5px;
   display: inline-block;
 }
-/* line 96, ../scss/bootstrap.scss */
+/* line 106, ../scss/bootstrap.scss */
 .footer ul li a {
   width: 30px;
   display: block;
   height: 30px;
 }
-/* line 100, ../scss/bootstrap.scss */
+/* line 110, ../scss/bootstrap.scss */
 .footer ul li a img {
   width: 100%;
 }
-/* line 102, ../scss/bootstrap.scss */
+/* line 112, ../scss/bootstrap.scss */
 .footer ul li a:hover img {
   opacity: 0.7;
 }

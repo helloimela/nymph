@@ -88,6 +88,16 @@
 	img{width: 80%;}
 }
 
+.portfolio-detail{
+	margin: 20px 0;
+	li{
+		margin-bottom: 8px;
+		.fc-primary{
+			display: block;
+		}
+	}
+}
+
 // footer
 .footer{
 	ul li{
